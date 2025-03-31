@@ -8,6 +8,13 @@ section{
 div{
 	margin: auto;
 }
+hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #000000;
+   
+}
 .padding{
 	padding: 10px 130px 20px 100px;
 }
@@ -27,12 +34,30 @@ div{
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 } 
 
-.color-item {
+.color-one{
+		list-style-type: none;
+	display: inline-block;
+  	height: 150px;
+  	width: 150px;
+  	background-color: #e15130;
+	margin: 10px;
+	}
+.color-two{
 	list-style-type: none;
 	display: inline-block;
   	height: 150px;
   	width: 150px;
-  	background-color: #555;
+  	background-color: #f3bb0f;
+	margin: 10px;
+	
+}
+
+.color-three{
+	list-style-type: none;
+	display: inline-block;
+  	height: 150px;
+  	width: 150px;
+  	background-color: #5546e7;
 	margin: 10px;
 	
 }
