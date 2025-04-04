@@ -1,7 +1,4 @@
 @charset "UTF-8";
-body{
-	
-}
 section{
 	margin: 50px 50px;
 }
@@ -48,8 +45,6 @@ li{
 }
 .color-container {
 	display: flex;
-	justify-content: space-around;
-	padding: 00px 280px 0px 300px;
 	flex-wrap: wrap;
 	flex-direction: row;
 }
